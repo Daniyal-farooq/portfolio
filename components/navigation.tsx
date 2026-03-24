@@ -24,7 +24,6 @@ export function Navigation() {
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
     { label: "Journey", href: "#journey" },
-    { label: "Gallery", href: "#gallery" },
     { label: "Contact", href: "#contact" },
   ]
 
@@ -62,7 +61,7 @@ export function Navigation() {
                 </a>
               ))}
               <Button asChild size="sm" className="ml-4">
-                <a href="#contact" onClick={handleNavClick}>
+                <a href="https://wa.me/923211156190" target="_blank" rel="noopener noreferrer" onClick={handleNavClick}>
                   Get in Touch
                 </a>
               </Button>
@@ -102,7 +101,9 @@ export function Navigation() {
             ))}
             <Button asChild size="lg" className="mt-4">
               <a
-                href="#contact"
+                href="https://wa.me/923211156190"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={(e) => {
                   handleNavClick(e)
                   setIsMobileMenuOpen(false)

@@ -78,8 +78,8 @@ export function IkigaiDiagram() {
               <div>
                 <h4 className="font-semibold mb-1">What I Love</h4>
                 <p className="text-sm text-muted-foreground">
-                  Cinematography, Programming, Powerlifting, Dancing, Acting, Skateboarding, Cooking, Origami, Running,
-                  Calisthenics
+                  Building web applications, Solving complex problems, Creating intuitive UIs, Learning new technologies,
+                  Open-source contributions, Clean code architecture, Tech communities
                 </p>
               </div>
             </div>
@@ -92,7 +92,8 @@ export function IkigaiDiagram() {
               <div>
                 <h4 className="font-semibold mb-1">What I'm Good At</h4>
                 <p className="text-sm text-muted-foreground">
-                  Digital Marketing, Programming, Content Creation, Agriculture, Landscaping, Advertisement, Design
+                  Full-stack development, React/Next.js, Node.js, TypeScript, Database design, API development,
+                  Responsive design, Performance optimization
                 </p>
               </div>
             </div>
@@ -105,7 +106,8 @@ export function IkigaiDiagram() {
               <div>
                 <h4 className="font-semibold mb-1">What the World Needs</h4>
                 <p className="text-sm text-muted-foreground">
-                  Sustainable Agriculture, Environmental Solutions, Digital Transformation, Health & Wellness
+                  Scalable web solutions, Digital transformation, Accessible websites, Fast and reliable applications,
+                  User-centric experiences, Modern business tools
                 </p>
               </div>
             </div>
@@ -118,7 +120,8 @@ export function IkigaiDiagram() {
               <div>
                 <h4 className="font-semibold mb-1">What I Can Be Paid For</h4>
                 <p className="text-sm text-muted-foreground">
-                  Growth Marketing, Agricultural Consulting, Web Development, Content Production, Brand Strategy
+                  Custom web development, E-commerce solutions, Portfolio websites, API development, Web application
+                  development, Technical consulting
                 </p>
               </div>
             </div>
@@ -131,8 +134,8 @@ export function IkigaiDiagram() {
                 style={{ backgroundColor: "hsl(142, 76%, 36%)", opacity: 0.7 }}
               />
               <p className="text-sm italic text-muted-foreground">
-                My Ikigai lies at the intersection: Creating sustainable solutions through digital innovation and
-                agricultural expertise
+                My Ikigai lies at the intersection: Building dynamic, scalable web solutions that transform ideas into
+                exceptional digital experiences
               </p>
             </div>
           </div>

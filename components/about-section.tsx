@@ -1,8 +1,10 @@
-import { LinkedinIcon, InstagramIcon, YoutubeIcon } from "./simple-icons"
+import { LinkedinIcon, GithubIcon, MailIcon } from "./simple-icons"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { HobbyCharacters } from "./hobby-characters"
 import { IkigaiDiagram } from "./ikigai-diagram"
+import { ProjectsSection } from "@/components/projects-section"
+
 
 export function AboutSection() {
   return (
@@ -14,21 +16,19 @@ export function AboutSection() {
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">About Me</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
               <p className="text-pretty">
-                I'm a dynamic horticulturist, growth marketer, and multi-talented creator based in Solan, Himachal
-                Pradesh. With a BSc (Hons.) in Horticulture from Dr. YS Parmar University, I merge agricultural insight,
-                business acumen, and digital creativity—driving innovation across sectors.
+                I'm a passionate Full Stack Web Developer specializing in creating dynamic, feature-rich, and scalable
+                websites. I transform ideas into functional digital experiences, delivering custom portfolios and web
+                solutions tailored to client needs.
               </p>
               <p className="text-pretty">
-                Currently serving as Growth and Marketing Manager at Ridge Environment Consultants, I lead digital
-                growth strategies, marketing campaigns, and innovative sustainability projects. My diverse experience
-                spans from managing vertical farms and organic plantations to building websites and growing a YouTube
-                channel to 128k+ subscribers.
+                With extensive experience in modern web technologies, I've successfully delivered multiple projects
+                ranging from e-commerce platforms to custom web applications. My focus is on building clean, efficient,
+                and user-friendly websites that help businesses establish a strong online presence.
               </p>
               <p className="text-pretty">
-                I'm passionate about sustainable agriculture, digital marketing, content creation, and fitness. Whether
-                it's planting 2000+ walnut seedlings, producing 40k worth of food products, or bench pressing 100kg, I
-                bring the same dedication to everything I do. Selected for LinkedIn's RHWE Program, I'm committed to
-                empowering communities through sustainable solutions.
+                I'm passionate about creating responsive designs, implementing modern frameworks, and solving complex
+                technical challenges. Whether it's building a portfolio from scratch, developing a full-stack application,
+                or optimizing website performance, I bring dedication and attention to detail to every project.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ export function AboutSection() {
             <div className="flex flex-wrap gap-3 pt-4">
               <Button variant="outline" size="lg" asChild>
                 <a
-                  href="https://linkedin.com/in/ritishverma"
+                  href="https://www.linkedin.com/in/daniyal-farooq-37aaa6264/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="gap-2"
@@ -46,15 +46,15 @@ export function AboutSection() {
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="https://instagram.com/ritishverma" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <InstagramIcon className="w-5 h-5" />
-                  Instagram
+                <a href="https://github.com/Daniyal-farooq" target="_blank" rel="noopener noreferrer" className="gap-2">
+                  <GithubIcon className="w-5 h-5" />
+                  GitHub
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="https://youtube.com/@ritishverma" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <YoutubeIcon className="w-5 h-5" />
-                  YouTube (128k+)
+                <a href="mailto:mdanifarooq@gmail.con" rel="noopener noreferrer" className="gap-2">
+                  <MailIcon className="w-5 h-5" />
+                  Email Me
                 </a>
               </Button>
             </div>
@@ -64,8 +64,8 @@ export function AboutSection() {
           <div className="md:col-span-2">
             <div className="relative aspect-[3/4] w-full max-w-sm mx-auto overflow-hidden rounded-2xl border border-border shadow-2xl">
               <Image
-                src="/images/design-mode/WhatsApp%20Image%202025-11-12%20at%203.09.57%20PM%20%281%29.jpeg"
-                alt="Ritish Verma - Professional portrait"
+                src="/profile-pic.png"
+                alt="Daniyal Farooq - Professional portrait"
                 fill
                 className="object-cover rounded-md"
                 priority
@@ -73,6 +73,9 @@ export function AboutSection() {
             </div>
           </div>
         </div>
+
+                <ProjectsSection />
+
 
         <div className="mt-20 space-y-16">
           <div className="bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8 md:p-12">

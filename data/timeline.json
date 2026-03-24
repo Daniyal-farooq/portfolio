@@ -1,151 +1,79 @@
 [
   {
     "id": "role-1",
-    "period": "2025 - Present",
-    "title": "Growth and Marketing Manager",
-    "company": "The Ridge Environment Consultants",
-    "description": "Leading digital growth strategies, marketing campaigns, and innovative sustainability projects.",
+    "period": "Dec 2025 - Present",
+    "title": "Full Stack Engineer",
+    "company": "Hashlogics",
+    "description": "As a Full Stack Developer at Hashlogics, I work across the MERN stack with a strong focus on building scalable, high-performance applications. Following a growth-driven approach inspired by the philosophy of kintsugi, aiming to turn challenges into stronger, more refined outcomes.",
     "achievements": [
-      "Driving digital transformation and growth initiatives",
-      "Managing marketing campaigns for environmental solutions",
-      "Developing sustainable business strategies",
-      "Prototyping new products",
-      "Podcasting",
-      "Field Visits"
+      "Developing modern, user-focused web applications using Next.js, React, Node.js, and MongoDB/PostgreSQL",
+      "Collaborating with cross-functional teams including designers, QA, and project managers",
+      "Implementing clean, maintainable code with best practices and performance optimization",
+      "Contributing to system architecture, API development, and application scalability",
+      "Participating in code reviews, problem-solving discussions, and feature planning",
+      "Continuously learning and applying new technologies to deliver efficient solutions"
     ],
-    "skills": [
-      "Product Management",
-      "Growth Marketing",
-      "Digital Strategy",
-      "Sustainability",
-      "WEB Development",
-      "Campaign Management"
-    ]
+    "skills": ["MERN Stack", "Next.js", "React", "Node.js", "MongoDB", "PostgreSQL", "Ant Design", "AI", "TypeScript"],
+    "location": "Lahore, Punjab, Pakistan · On-site"
   },
   {
     "id": "role-2",
-    "period": "2025 - 2025",
-    "title": "Career Counsellor",
-    "company": "Counselling Shortcuts",
-    "description": "Virtual student mentoring, outreach programs, research initiatives, and educational presentations.",
+    "period": "May 2023 - Nov 2025",
+    "title": "Senior MERN Stack Developer | QA & Testing Collaboration",
+    "company": "Techtrack Software Solutions",
+    "description": "Worked as a Senior MERN Stack Developer responsible for developing and maintaining full-stack web applications. Collaborated with cross-functional teams to deliver scalable, efficient, and user-friendly web solutions. During development, actively participated in feature validation and quality assurance.",
     "achievements": [
-      "Mentored 100+ students in career planning",
-      "Conducted research on career development trends",
-      "Delivered engaging presentations and workshops"
+      "Developed and maintained web applications using React, Node.js, Express, and MongoDB",
+      "Built and integrated RESTful APIs for application features",
+      "Performed manual testing of features before deployment to verify functionality",
+      "Identified, reproduced, and documented bugs during development cycles",
+      "Collaborated with QA teams to verify bug fixes and validate feature stability",
+      "Assisted in creating test scenarios for validating application workflows"
     ],
-    "skills": ["Mentoring", "Research", "Presentations", "Student Outreach"]
+    "skills": ["MERN Stack", "Next.js", "React", "Node.js", "Express", "MongoDB", "QA Testing", "API Development"],
+    "location": "Faisalabad, Punjab, Pakistan · On-site"
   },
   {
     "id": "role-3",
-    "period": "2025",
-    "title": "Content & Social Media Marketing Intern",
-    "company": "Inamigos Foundation",
-    "description": "Managed social media presence, fundraising campaigns, and content creation including blogging.",
+    "period": "Mar 2024 - Nov 2024",
+    "title": "Inventory Manager",
+    "company": "Usman CO.",
+    "description": "Managed inventory operations and stock control processes using modern inventory management tools and systems.",
     "achievements": [
-      "Increased social media engagement by 200%",
-      "Successfully managed multiple fundraising campaigns",
-      "Created compelling blog content and marketing materials"
+      "Handled inventory tracking and stock management",
+      "Utilized Busy 17 software for efficient inventory operations",
+      "Maintained accurate stock records and reorder points",
+      "Coordinated with procurement for timely stock replenishment"
     ],
-    "skills": ["Social Media", "Content Marketing", "Fundraising", "Blogging"]
+    "skills": ["Inventory Management", "Busy 17", "Stock Control", "Procurement"],
+    "location": "Faisalabad, Punjab, Pakistan"
   },
   {
     "id": "role-4",
-    "period": "2025",
-    "title": "Field Sales Specialist",
-    "company": "BharatPe",
-    "description": "QR code installations, brand management, and field marketing operations across territories.",
+    "period": "Oct 2022 - Mar 2023",
+    "title": "Frontend Developer | QA & Testing Collaboration",
+    "company": "Cyborg Solutions",
+    "description": "Internship focused on learning advanced JavaScript integration in React and Next.js projects. Gained foundational knowledge in Software Quality Assurance principles and practices.",
     "achievements": [
-      "Successfully installed 500+ merchant QR codes",
-      "Managed brand presence in assigned territory",
-      "Exceeded sales targets consistently"
+      "Learned advanced JavaScript integration in React projects",
+      "Developed frontend components using React and React Bootstrap",
+      "Gained understanding of Software Quality Assurance basics",
+      "Participated in code reviews and testing activities"
     ],
-    "skills": ["Field Sales", "Brand Management", "Marketing", "Customer Relations"]
-  },
-  {
-    "id": "role-5",
-    "period": "2024 - 2025",
-    "title": "Horticulturist Intern",
-    "company": "Dr. YS Parmar University",
-    "description": "Managed apple, apricot, and guava plantations with advanced organic farming practices including Jeevamrit and Ghanjeevamrit.",
-    "achievements": [
-      "Managed large-scale fruit plantations",
-      "Implemented organic farming techniques",
-      "Planted 2000+ walnut seedlings with PhD scholars"
-    ],
-    "skills": ["Horticulture", "Organic Farming", "Plantation Management", "Research"]
-  },
-  {
-    "id": "role-6",
-    "period": "2021-2025",
-    "title": "Agriculture Food Engineering Intern",
-    "company": "Dr. YS Parmar University",
-    "description": "Led campaigns, produced and marketed food products, managed supply chains in apple industry.",
-    "achievements": [
-      "Produced and sold 40k worth of food products",
-      "Managed end-to-end supply chain operations",
-      "Led successful marketing campaigns"
-    ],
-    "skills": ["Food Engineering", "Supply Chain", "Product Marketing", "Campaign Management"]
-  },
-  {
-    "id": "role-7",
-    "period": "2020",
-    "title": "Web Development",
-    "company": "Freelance",
-    "description": "Built professional websites for local shop owners using Shopify and WordPress platforms.",
-    "achievements": [
-      "Delivered 10+ client websites successfully",
-      "Specialized in e-commerce solutions",
-      "Maintained 100% client satisfaction rate"
-    ],
-    "skills": ["Web Development", "Shopify", "WordPress", "Client Management"]
+    "skills": ["React", "React Bootstrap", "JavaScript", "Next.js", "QA Testing", "Git"],
+    "location": "Faisalabad, Punjab, Pakistan · On-site"
   },
   {
     "id": "education-1",
-    "period": "2025-2026",
-    "title": "Product Management Diploma",
-    "company": "Internshala",
-    "description": "Comprehensive training in product management, user research, and agile methodologies.",
-    "achievements": [
-      "Completed advanced product management curriculum",
-      "Developed product strategy frameworks",
-      "Gained hands-on experience with PM tools"
-    ],
-    "skills": ["Product Management", "User Research", "Agile", "Strategy"]
-  },
-  {
-    "id": "education-2",
     "period": "2021 - 2025",
-    "title": "B.Sc (Hons.) Horticulture",
-    "company": "Dr. YS Parmar University, Nauni",
-    "description": "Specialized in horticulture with focus on sustainable agriculture, post-harvest technology, and organic farming.",
+    "title": "Bachelor's in Computer Science",
+    "company": "University of Central Punjab (UCP)",
+    "description": "Specialized in Web Development and Software Engineering with focus on full-stack technologies, database management, and software architecture.",
     "achievements": [
-      "Volunteer at NSS",
-      "Built TIME SAVERS (mini business) In University",
-      "Hands-on expertise in cultivation and food processing"
+      "Built multiple web applications as academic projects",
+      "Participated in coding competitions and hackathons",
+      "Developed strong foundation in data structures and algorithms"
     ],
-    "skills": ["Horticulture", "Organic Farming", "Post-Harvest Technology", "Food Processing"]
-  },
-  {
-    "id": "education-3",
-    "period": "2020 - 2021",
-    "title": "Blockchain Development",
-    "company": "Internshala",
-    "description": "Specialized in Blockchain with focus on Ethereum and real technology behind blockchain.",
-    "achievements": ["Built Supply chain thesis based on blockchain", "Bitcoin and mining", "Concept of ledger"],
-    "skills": ["Blockchain", "Programming", "Ethereum Based Products"]
-  },
-  {
-    "id": "program-1",
-    "period": "2024-2025",
-    "title": "RHWE Program",
-    "company": "UHF Nauni",
-    "description": "Selected participant in Rural Health, Water, and Environment initiative—empowering Agriculture communities through sustainable solutions.",
-    "achievements": [
-      "Selected for prestigious RHWE program",
-      "Focus on sustainable community development",
-      "Working on rural health and environmental projects"
-    ],
-    "skills": ["Community Development", "Sustainability", "Rural Health", "Water Management"]
+    "skills": ["Computer Science", "Data Structures", "Algorithms", "Web Technologies", "Database Systems"]
   }
 ]

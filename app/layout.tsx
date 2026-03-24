@@ -9,9 +9,9 @@ const _francoisOne = V0_Font_Francois_One({ subsets: ['latin'], weight: ["400"] 
 const _geistMono = V0_Font_Geist_Mono({ subsets: ['latin'], weight: ["100","200","300","400","500","600","700","800","900"] })
 
 export const metadata: Metadata = {
-  title: "Ritish Verma - Growth Marketer & Agricultural Innovator",
+  title: "Daniyal Farooq - Web Developer & Full Stack Engineer",
   description:
-    "Portfolio of Ritish Verma showcasing expertise in growth marketing, sustainable agriculture, and digital innovation",
+    "Portfolio of Daniyal Farooq showcasing expertise in web development, creating dynamic and scalable websites, and delivering multiple successful projects",
   generator: "v0.app",
   icons: {
     icon: [

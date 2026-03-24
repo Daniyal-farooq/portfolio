@@ -3,7 +3,6 @@ import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { TimelineSection } from "@/components/timeline-section"
-import { GallerySection } from "@/components/gallery-section"
 import { ContactSection } from "@/components/contact-section"
 import { BackgroundAnimations } from "@/components/background-animations"
 import { ThreeScene } from "@/components/three-scene"
@@ -18,10 +17,10 @@ export default function Home() {
       <div className="relative z-10">
         <Navigation />
         <HeroSection />
+        
         <AboutSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
         <TimelineSection />
-        <GallerySection />
         <ContactSection />
       </div>
     </main>
