@@ -16,19 +16,21 @@ export function AboutSection() {
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">About Me</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
               <p className="text-pretty">
-                I'm a passionate Full Stack Web Developer specializing in creating dynamic, feature-rich, and scalable
-                websites. I transform ideas into functional digital experiences, delivering custom portfolios and web
-                solutions tailored to client needs.
+                I'm a passionate Full Stack Web Developer & SQA Engineer specializing in creating dynamic, feature-rich,
+                and scalable websites. I transform ideas into functional digital experiences, delivering custom portfolios
+                and web solutions tailored to client needs.
               </p>
               <p className="text-pretty">
-                With extensive experience in modern web technologies, I've successfully delivered multiple projects
-                ranging from e-commerce platforms to custom web applications. My focus is on building clean, efficient,
-                and user-friendly websites that help businesses establish a strong online presence.
+                With extensive experience in both development and quality assurance, I bring a unique perspective to building
+                robust applications. My SQA background ensures that every project I deliver is thoroughly tested, reliable,
+                and meets high-quality standards. I've successfully delivered multiple projects ranging from e-commerce
+                platforms to custom web applications.
               </p>
               <p className="text-pretty">
-                I'm passionate about creating responsive designs, implementing modern frameworks, and solving complex
-                technical challenges. Whether it's building a portfolio from scratch, developing a full-stack application,
-                or optimizing website performance, I bring dedication and attention to detail to every project.
+                I'm passionate about creating responsive designs, implementing modern frameworks, conducting comprehensive
+                testing, and solving complex technical challenges. Whether it's building a portfolio from scratch, developing
+                a full-stack application, performing quality assurance testing, or optimizing website performance, I bring
+                dedication and attention to detail to every project.
               </p>
             </div>
 
