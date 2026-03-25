@@ -24,7 +24,7 @@ export function HeroSection() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 text-balance">
             Daniyal Farooq
             <br />
-            <span className="text-primary">Full Stack Web Developer</span>
+            <span className="text-primary">Full Stack Web Developer & SQA Engineer</span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 text-balance leading-relaxed">
             Building dynamic, feature-rich, and scalable websites—delivering exceptional digital experiences

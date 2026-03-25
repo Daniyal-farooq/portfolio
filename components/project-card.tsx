@@ -14,6 +14,7 @@ interface Project {
   description: string
   image: string
   tags: string[]
+  link?: string
 }
 
 interface ProjectCardProps {
@@ -25,7 +26,7 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
   const [isHovered, setIsHovered] = useState(false)
   const { playSound } = useSound()
 
-  return (
+  const cardContent = (
     <Card
       className={`group relative overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-2xl border-border ${
         featured ? "h-full" : "h-[400px]"
@@ -82,4 +83,19 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
       </div>
     </Card>
   )
+
+  if (project.link) {
+    return (
+      <a
+        href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block h-full"
+      >
+        {cardContent}
+      </a>
+    )
+  }
+
+  return cardContent
 }
