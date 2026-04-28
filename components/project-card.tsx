@@ -29,7 +29,7 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
   const cardContent = (
     <Card
       className={`group relative overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-2xl border-border ${
-        featured ? "h-full" : "h-[400px]"
+        featured ? "h-full" : "h-[300px] sm:h-[350px] md:h-[400px]"
       }`}
       onMouseEnter={() => {
         setIsHovered(true)
@@ -54,21 +54,21 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
         />
 
         {/* Content */}
-        <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end">
+        <div className="absolute inset-0 p-4 sm:p-6 md:p-8 flex flex-col justify-end">
           <div className="space-y-3">
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <p className="text-sm text-primary font-medium mb-1">{project.subtitle}</p>
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-balance">{project.title}</h3>
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-xs sm:text-sm text-primary font-medium mb-1">{project.subtitle}</p>
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-balance">{project.title}</h3>
+                </div>
+                <ArrowUpRightIcon
+                  className={`text-primary transition-transform duration-300 w-5 h-5 sm:w-6 sm:h-6 ${
+                    isHovered ? "translate-x-1 -translate-y-1" : ""
+                  }`}
+                />
               </div>
-              <ArrowUpRightIcon
-                className={`text-primary transition-transform duration-300 w-6 h-6 ${
-                  isHovered ? "translate-x-1 -translate-y-1" : ""
-                }`}
-              />
-            </div>
 
-            <p className="text-muted-foreground leading-relaxed text-pretty">{project.description}</p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed text-pretty">{project.description}</p>
 
             {/* Tags */}
             <div className="flex flex-wrap gap-2 pt-2">

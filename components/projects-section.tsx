@@ -14,11 +14,11 @@ export function ProjectsSection() {
           </p>
         </div>
 
-        {/* Bento Grid Layout */}
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+        {/* Responsive Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           {featuredProjects.map((project, index) => (
-            <div key={project.id} className={index === 0 ? "md:row-span-2" : ""}>
-              <ProjectCard project={project} featured={index === 0} />
+            <div key={project.id}>
+              <ProjectCard project={project} featured={false} />
             </div>
           ))}
         </div>
